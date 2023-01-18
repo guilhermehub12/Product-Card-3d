@@ -38,3 +38,43 @@ body {
     right: 60px;
     top: 10px;
 }
+
+.product-info {
+    margin-bottom: 1.25em;
+}
+
+.product-info p {
+    font-weight: 300;
+    font-size: 0.625em;
+    margin-bottom: 0.75em;
+}
+
+.product-info h1 {
+    font-family: 'Crimson Pro', sans-serif;
+    font-size: 2em;
+    margin-bottom: 0.75em;
+}
+
+.product-info span {
+    font-weight: 400;
+    font-size: 1em;
+    opacity: .6;
+}
+
+.btn-cart button {
+    background: none;
+
+    border: 0.5px solid var(--text);
+    border-radius: 100px;
+    padding: .5em 1em;
+
+    font-weight: 400;
+    font-size: 0.75em;
+    line-height: 1em;
+}
+
+@media (max-width: 42rem) {
+    .wrapper {
+        flex-direction: column;
+    }
+}
