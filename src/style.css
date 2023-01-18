@@ -73,6 +73,10 @@ body {
     line-height: 1em;
 }
 
+button:hover, #icon:hover {
+    cursor: pointer;
+}
+
 @media (max-width: 42rem) {
     .wrapper {
         flex-direction: column;
