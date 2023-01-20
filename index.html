@@ -8,6 +8,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
     <link rel="stylesheet" href="src/style.css">
     <title>Product Card</title>
 </head>
@@ -17,15 +19,17 @@
     <div class="wrapper">
         <div class="product">
             <div class="product-image">
-                <img id="sofa" src="src/imgs/sofa.svg" alt="Sofa Margot II">
-                <img id="icon" src="src/imgs/icon-360g.svg" alt="Icon 360degrees">
+                <span id="sofa-3d"></span>
+                <img id="sofa" src="src/imgs/sofa.jpeg" alt="Sofa Margot II">
             </div>
     
             <div class="info">
+                <img id="icon" src="src/imgs/icon-360g.svg" alt="Icon 360degrees">
                 <div class="product-info">
                     <p>CODE 42404</p>
-                    <h1>Sofa Margot II - Rosé</h1>
-                    <span>$ 4.000</span>
+                    <h1>Sofa Margot II - Black Piano</h1>
+                    <p>LIMITED EDITION</p>
+                    <span>$ 1.000</span>
                 </div>
                 <div class="btn-cart">
                     <button>ADD TO CART</button>
