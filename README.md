@@ -1,6 +1,6 @@
 # Product Card 3D
 ## Desafio 2 Bora Codar - RocketSeat
-[Preview Here]('https://guilhermehub12.github.io/Product-Card-3d/')
+[Preview Here](https://guilhermehub12.github.io/Product-Card-3d/)
 ## Card de um Produto
 <img src='src/assets/previews/previewStatic.jpeg' />
 <img src='src/assets/previews/preview3d.jpeg' />
@@ -9,9 +9,9 @@
 - HTML
 - CSS
 - Javascript
-- [Model-Viewer]('https://modelviewer.dev/')
-- [FontAwesome]('https://fontawesome.com/')
-- [Sketchfab - 3d Models]('https://sketchfab.com/')
+- [Model-Viewer](https://modelviewer.dev/)
+- [FontAwesome](https://fontawesome.com/)
+- [Sketchfab - 3d Models](https://sketchfab.com/)
 
 ### O que aprendi
 - Aprendi mais sobre usar figma como guia do css,
