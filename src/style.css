@@ -21,7 +21,7 @@ body {
 }
 
 .product {
-    height: 100vh;
+    height: 90vh;
     width: 100vw;
     display: flex;
     align-items: center;
@@ -33,15 +33,26 @@ body {
     margin-right: 0.9375em;
 }
 
-.product-image #sofa {
-    width: 450px;
-    height: 255px;
+.product-image model-viewer {
+    height: 31.25em;
+    width: 37.5em;
+    top: 0;
+    left: 0;
+    border: none;
 }
 
-.product-image #icon {
-    position: absolute;
-    right: 60px;
-    top: 10px;
+.product-image #sofa {
+    height: 31.25em;
+    width: 37.5em;
+    object-fit: contain;
+}
+
+.info {
+    gap: 30px;
+}
+
+.info #icon {
+    padding: 1rem;
 }
 
 .product-info {
@@ -57,7 +68,7 @@ body {
 .product-info h1 {
     font-family: 'Crimson Pro', sans-serif;
     font-size: 2em;
-    margin-bottom: 0.75em;
+    margin-bottom: 0.25em;
 }
 
 .product-info span {
@@ -78,12 +89,50 @@ body {
     line-height: 1em;
 }
 
-button:hover, #icon:hover {
+button:hover,
+#icon:hover {
     cursor: pointer;
 }
 
-@media (max-width: 42rem) {
-    .wrapper {
+#icons {
+    width: 100px;
+    filter: drop-shadow(2px 2px 2px grey);
+    display: grid;
+    margin: 0 auto;
+}
+
+#icons #iconsLogo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+#icons #iconsLogo i {
+    font-size: 40px;
+    margin: 10px;
+    color: var(--text);
+    display: grid;
+    place-items: center;
+    cursor: pointer;
+}
+
+@media (max-width: 48rem) {
+    .product {
         flex-direction: column;
+    }
+
+    .product-image model-viewer {
+        height: 18.75em;
+        width: 25em;
+        top: 0;
+        left: 0;
+        border: none;
+    }
+
+    .product-image #sofa {
+        height: 18.75em;
+        width: 25em;
+        object-fit: contain;
     }
 }
